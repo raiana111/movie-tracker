@@ -1,0 +1,67 @@
+.movie-tracker {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #89a4c1;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #2c3a48;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    color: #000000;
+  }
+  
+  .movie-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #000000;
+  }
+  
+  .movie-item button {
+    margin-left: 5px;
+    background-color: #055db5;
+  }
+  
+  .movie-item button:hover {
+    background-color: #000000;
+  }
+  h2{
+    color: #000000;
+  }
+  .towatch{
+    color: #000000;
+    display: flex;
+    justify-content: left;
+  }
