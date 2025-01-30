@@ -37,7 +37,7 @@ function MovieTracker() {
 
   return (
     <div className="movie-tracker">
-      <h2>Movie Tracker</h2>
+      <h2>Movies</h2>
       <div className="input-container">
         <input
           type="text"
